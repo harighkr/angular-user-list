@@ -1,0 +1,6 @@
+<ul class="nav user-list" >
+  <li class="user-item" *ngFor="let user of users" (click)="userClicked(user)">
+    {{user.name}}
+    <span><i class="glyphicon glyphicon-play"></i></span>
+  </li>
+</ul>

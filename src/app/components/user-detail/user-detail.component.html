@@ -1,0 +1,18 @@
+<div class="row user-detail">
+  <div class="col-md-4">
+    <img class="img" src={{user.img}} alt="" />
+  </div>
+
+  <div class="col-md-8">
+    <button class="btn btn-primary">Send Message</button>
+    <div class="rating">
+      <i *ngFor="let i of rating" [ngClass]=" (i == true) ? 'glyphicon glyphicon-heart' : 'glyphicon glyphicon-heart-empty' "></i>
+    </div>
+  </div>
+
+  <div class="col-md-12 ">
+    <blockquote>{{user.Description}}</blockquote>
+
+  </div>
+
+</div>

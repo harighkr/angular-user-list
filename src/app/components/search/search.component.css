@@ -1,0 +1,30 @@
+.search-box{
+    margin: 20px 0;
+    border-radius: 20px;
+    padding: 10px 40px;
+    width: 100%;
+    border: 1px solid #d2d2d2;
+    display: inline-block
+}
+
+.search-box:focus{
+    outline: none;
+}
+
+.search-gif{
+    position: absolute;
+    left: 30px;
+    top: 35px;
+    cursor: pointer;
+}
+.remove-gif{
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    cursor: pointer;
+}
+
+.glyphicon-user{
+    font-size: 40px;
+    margin: 10px 20px;
+}

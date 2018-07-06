@@ -1,0 +1,12 @@
+.user-item {
+    padding: 30px 2px;
+    border: 1px solid black;
+    font-size: 240x;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.user-item>span {
+    position: absolute;
+    right: 10px;
+}

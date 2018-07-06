@@ -1,0 +1,15 @@
+<div class="container">
+  <app-search (searchClick)="handleSearch($event)"></app-search>
+
+  <div class="row">
+    <div class="col-md-3">
+      <app-user-list [users]="filteredUserList" (userClick)="userChanged($event)"></app-user-list>
+
+    </div>
+    <div class="col-md-9">
+      <app-user-detail [user]="currentUser"></app-user-detail>
+      <app-table [data]="table"></app-table>
+
+    </div>
+  </div>
+</div>
